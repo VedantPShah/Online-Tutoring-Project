@@ -1,0 +1,36 @@
+[
+{
+ "name" : "Abraham Lincoln",
+ "email": "ab.li@email.com",
+ "img": "ab.image.png",
+ "bio" : "I have extensive practical and theoretical experince in US politics in the past"
+},
+{
+ "name" : "Teddy Roosevelt",
+ "email": "td.ro@email.com",
+ "img": "td.image.png",
+ "bio" : "I have extensive practical and theoretical exsperince in US politics in the past"
+},{
+ "name" : "Richard Nixon",
+ "email": "ri.ni@email.com",
+ "img": "ri.image.png",
+ "bio" : "I have extensive practical and theoretical experince in US politics in the past"
+},
+{
+    "name" : "Abraham Lincoln",
+    "email": "ab.li@email.com",
+    "img": "ab.image.png",
+    "bio" : "I have extensive practical and theoretical experince in US politics in the past"
+   },
+   {
+    "name" : "Teddy Roosevelt",
+    "email": "td.ro@email.com",
+    "img": "td.image.png",
+    "bio" : "I have extensive practical and theoretical exsperince in US politics in the past"
+   },{
+    "name" : "Richard Nixon",
+    "email": "ri.ni@email.com",
+    "img": "ri.image.png",
+    "bio" : "I have extensive practical and theoretical experince in US politics in the past"
+   }
+]
