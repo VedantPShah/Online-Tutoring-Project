@@ -1,0 +1,81 @@
+[
+    {
+        "userId" : 37348,
+        "userName" : "Rishi Patil",
+        "userEmail" : "rishipatil@gmail.com",
+        "tutorId" : 28345,
+        "tutorName" : "Adit Shah",
+        "tutorEmail" : "aditshah@gmail.com",
+        "courseId" : 904453,
+        "courseName" : "Python For Beignners",
+        "date" : "04/27/2022",
+        "time" : "08:00:00",
+        "isScheduled" : "True"
+    },
+    {
+        "userId" : 37348,
+        "userName" : "Sid Rai",
+        "userEmail" : "sidrai@gmail.com",
+        "tutorId" : 28345,
+        "tutorName" : "Yash Shah",
+        "tutorEmail" : "Yashshah@gmail.com",
+        "courseId" : 904453,
+        "courseName" : "R For Beignners",
+        "date" : "04/28/2022",
+        "time" : "09:00:00",
+        "isScheduled" : "True"
+    },
+    {
+        "userId" : 37348,
+        "userName" : "Rishi Patil",
+        "userEmail" : "rishipatil@gmail.com",
+        "tutorId" : 28345,
+        "tutorName" : "Adit Shah",
+        "tutorEmail" : "aditshah@gmail.com",
+        "courseId" : 938453,
+        "courseName" : "Python Advance",
+        "date" : "04/27/2022",
+        "time" : "08:00:00",
+        "isScheduled" : "True"
+    },
+    {
+        "userId" : 37348,
+        "userName" : "Sid Rai",
+        "userEmail" : "sidrai@gmail.com",
+        "tutorId" : 28345,
+        "tutorName" : "Yash Shah",
+        "tutorEmail" : "Yashshah@gmail.com",
+        "courseId" : 903853,
+        "courseName" : "C++ Basics",
+        "date" : "04/27/2022",
+        "time" : "08:00:00",
+        "isScheduled" : "True"
+    },
+    {
+        "userId" : 37348,
+        "userName" : "Sid Rai",
+        "userEmail" : "sidrai@gmail.com",
+        "tutorId" : 28345,
+        "tutorName" : "Adit Shah",
+        "tutorEmail" : "aditshah@gmail.com",
+        "courseId" : 904453,
+        "courseName" : "C++ Advance",
+        "date" : "04/27/2022",
+        "time" : "08:00:00",
+        "isScheduled" : "True"
+    },
+    {
+        "userId" : 37348,
+        "userName" : "Rishi Patil",
+        "userEmail" : "rishipatil@gmail.com",
+        "tutorId" : 28345,
+        "tutorName" : "Adit Shah",
+        "tutorEmail" : "aditshah@gmail.com",
+        "courseId" : 904453,
+        "courseName" : "R Advance",
+        "date" : "04/27/2022",
+        "time" : "08:00:00",
+        "isScheduled" : "True"
+    }
+
+]

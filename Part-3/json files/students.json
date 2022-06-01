@@ -1,0 +1,178 @@
+[
+    {
+        "name" : "Harsh Malhan",
+        "email" : "harshmalhan@gmail.com",
+        "password" : "qwerty@12345",
+        "phoneNo" : "9087654321",
+        "image" : "_wpl1001.jpg",	
+        "coursesEnrolled" : [
+            {	
+                "_id" : 890,
+                "courseId" : "62777d2710e915535617d218",
+                "tutorId" : "62777d3210e915535617d21a",
+                "isFavourite" : "True",
+                "rating" : 4.9,
+                "commentId" : 2356
+            },
+            {
+                "_id" : 567,
+                "courseId" : "62777daa10e915535617d220",
+                "tutorId" : "62777db010e915535617d222",
+                "isFavourite" : "False",
+                "rating" : 4.5,
+                "commentId" : 7823
+            }
+        ],
+        "totalHours" : 20   
+    },
+    {
+        "name" : "Shlok Thakkar",
+        "email" : "shlokthakkar@gmail.com",
+        "password" : "qwerty@12345",
+        "phoneNo" : "9087654321",
+        "image" : "_wpl1001.jpg",	
+        "coursesEnrolled" : [
+            {	
+                "_id" : 890,
+                "courseId" : "62777d2d10e915535617d219",
+                "tutorId" : "62777d3210e915535617d21a",
+                "isFavourite" : "True",
+                "rating" : 4.4,
+                "commentId" : 2356
+            },
+            {
+                "_id" : 567,
+                "courseId" : "62777daf10e915535617d221",
+                "tutorId" : "62777db010e915535617d222",
+                "isFavourite" : "True",
+                "rating" : 4.8,
+                "commentId" : 7823
+            }
+        ],
+        "totalHours" : 15   
+    },
+    {
+        "name" : "Abhi Shah",
+        "email" : "abhishah@gmail.com",
+        "password" : "qwerty@12345",
+        "phoneNo" : "9087654321",
+        "image" : "_wpl1001.jpg",	
+        "coursesEnrolled" : [
+            {	
+                "_id" : 890,
+                "courseId" : "62777d6e10e915535617d21c",
+                "tutorId" : "62777d7910e915535617d21e",
+                "isFavourite" : "True",
+                "rating" : 4.4,
+                "commentId" : 2356
+            },
+            {
+                "_id" : 567,
+                "courseId" : "62777de810e915535617d22a",
+                "tutorId" : "62777dda10e915535617d224",
+                "isFavourite" : "False",
+                "rating" : 4.8,
+                "commentId" : 7823
+            }
+        ],
+        "totalHours" : 25   
+    },
+    {
+        "name" : "Rushi Parikh",
+        "email" : "rushiparikh@gmail.com",
+        "password" : "qwerty@12345",
+        "phoneNo" : "9087654321",
+        "image" : "_wpl1001.jpg",	
+        "coursesEnrolled" : [
+            {	
+                "_id" : 890,
+                "courseId" : "62777d7810e915535617d21d",
+                "tutorId" : "62777d7910e915535617d21e",
+                "isFavourite" : "True",
+                "rating" : 4.5,
+                "commentId" : 2356
+            },
+            {
+                "_id" : 567,
+                "courseId" : "62777df110e915535617d22b",
+                "tutorId" : "62777dda10e915535617d224",
+                "isFavourite" : "True",
+                "rating" : 4.7,
+                "commentId" : 7823
+            }
+        ],
+        "totalHours" : 35   
+    },
+    {
+        "name" : "Rahee Parikh",
+        "email" : "raheeparikh@gmail.com",
+        "password" : "qwerty@12345",
+        "phoneNo" : "9087654321",
+        "image" : "_wpl1001.jpg",	
+        "coursesEnrolled" : [
+            {	
+                "_id" : 890,
+                "courseId" : "62777e5610e915535617d234",
+                "tutorId" : "62777dda10e915535617d229",
+                "isFavourite" : "True",
+                "rating" : 4.5,
+                "commentId" : 2356
+            },
+            {
+                "_id" : 567,
+                "courseId" : "62777e5f10e915535617d235",
+                "tutorId" : "62777dda10e915535617d229",
+                "isFavourite" : "True",
+                "rating" : 4.7,
+                "commentId" : 7823
+            }
+        ],
+        "totalHours" : 35   
+    },
+    {
+        "name" : "Meeti Parikh",
+        "email" : "meetiparikh@gmail.com",
+        "password" : "qwerty@12345",
+        "phoneNo" : "9087654321",
+        "image" : "_wpl1001.jpg",	
+        "coursesEnrolled" : [
+            {	
+                "_id" : 890,
+                "courseId" : "62777e4810e915535617d233",
+                "tutorId" : "62777dda10e915535617d228",
+                "isFavourite" : "False",
+                "rating" : 4.5,
+                "commentId" : 2356
+            },
+            {
+                "_id" : 567,
+                "courseId" : "62777e2d10e915535617d230",
+                "tutorId" : "62777dda10e915535617d227",
+                "isFavourite" : "True",
+                "rating" : 4.7,
+                "commentId" : 7823
+            }
+        ],
+        "totalHours" : 35   
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

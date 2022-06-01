@@ -1,0 +1,80 @@
+[
+    {
+        "userId": "6278a11110e915535617d23b",
+        "userName": "Harsh Malhan",
+        "userEmail": "harshmalhan@gmail.com",
+        "tutorId": "62777d3210e915535617d21a",
+        "tutorName": "Vedant Shah",
+        "tutorEmail": "vedantshah@gmail.com",
+        "courseId": "62777d2710e915535617d218",
+        "courseName": "Python For Beignners",
+        "date": "05/18/2022",
+        "time": "09:00:00",
+        "isScheduled": "True"
+    },
+    {
+        "userId": "6278a11110e915535617d23b",
+        "userName": "Harsh Malhan",
+        "userEmail": "harshmalhan@gmail.com",
+        "tutorId": "62777d3210e915535617d21a",
+        "tutorName": "Vedant Shah",
+        "tutorEmail": "vedantshah@gmail.com",
+        "courseId": "62777d2710e915535617d218",
+        "courseName": "Python For Beignners",
+        "date": "05/18/2022",
+        "time": "10:00:00",
+        "isScheduled": "True"
+    },
+    {
+        "userId": "6278a17110e915535617d243",
+        "userName": "Abhi Shah",
+        "userEmail": "abhishah@gmail.com",
+        "tutorId": "62777d7910e915535617d21e",
+        "tutorName": "Surya Palaniswamy",
+        "tutorEmail": "suryapalaniswamy@gmail.com",
+        "courseId": "62777d6e10e915535617d21c",
+        "courseName": "C++ for Beginners",
+        "date": "05/19/2022",
+        "time": "09:00:00",
+        "isScheduled": "True"
+    },
+    {
+        "userId": "6278a17110e915535617d243",
+        "userName": "Abhi Shah",
+        "userEmail": "abhishah@gmail.com",
+        "tutorId": "62777d7910e915535617d21e",
+        "tutorName": "Surya Palaniswamy",
+        "tutorEmail": "suryapalaniswamy@gmail.com",
+        "courseId": "62777d6e10e915535617d21c",
+        "courseName": "C++ for Beginners",
+        "date": "05/19/2022",
+        "time": "10:00:00",
+        "isScheduled": "True"
+    },
+    {
+        "userId": "6278a11110e915535617d23b",
+        "userName": "Harsh Malhan",
+        "userEmail": "harshmalhan@gmail.com",
+        "tutorId": "62777d3210e915535617d21a",
+        "tutorName": "Vedant Shah",
+        "tutorEmail": "vedantshah@gmail.com",
+        "courseId": "62777d2710e915535617d218",
+        "courseName": "Python For Beignners",
+        "date": "05/19/2022",
+        "time": "09:00:00",
+        "isScheduled": "True"
+    },
+    {
+        "userId": "6278a11110e915535617d23b",
+        "userName": "Harsh Malhan",
+        "userEmail": "harshmalhan@gmail.com",
+        "tutorId": "62777d3210e915535617d21a",
+        "tutorName": "Vedant Shah",
+        "tutorEmail": "vedantshah@gmail.com",
+        "courseId": "62777d2710e915535617d218",
+        "courseName": "Python For Beignners",
+        "date": "05/19/2022",
+        "time": "10:00:00",
+        "isScheduled": "True"
+    }
+]
