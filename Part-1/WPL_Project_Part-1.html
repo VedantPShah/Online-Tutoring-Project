@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link 
+      rel="stylesheet" 
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link 
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+      rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <title>Home page of Illuinate online tutoring website</title>
+
+    <style>
+
+
+    </style>
+
+
+  </head>
+  <!-- 
+      HEADER FOR ALL THE PAGES
+   -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark" style = "background-color: rgb(0, 70, 128)">
+      <a class="navbar-brand" href="#">
+        <img
+          src="https://i.imgur.com/9purnWP.png"
+          alt="logo"
+          width="180px"
+          height="70px"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+        <!-- <ul class="nav justify-content-end"> -->
+          <li class="nav-item d-flex">
+            <div class="collapse fade" id="searchForm">
+              <input id="search" type="search" class="form-control border-0 bg-light" placeholder="search" />
+            </div>
+            <a class="nav-link ml-auto" href="#searchForm" data-target="#searchForm" data-toggle="collapse">
+              <i class="bi bi-search"></i>
+            </a>
+          </li>
+          &nbsp;
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Explore <span class="sr-only">(current)</span></a
+            >
+          </li>
+          &nbsp;
+          <li class="nav-item active">
+            <li class="nav-item dropdown active">
+              <a
+                class="nav-link"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Goals
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <!-- <li class="dropdown-header">Dropdown header 1</li> -->
+                <a class="dropdown-item" style="font-size: small;" href="#">Take a free course</a>
+                <a class="dropdown-item" style="font-size: small;" href="#">Earn a Certificate</a>
+                <a class="dropdown-item" style="font-size: small;" href="#">Advance your career</a>
+            </li>
+          </li>
+          &nbsp;
+          <li class="nav-item dropdown active">
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Topics
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: auto;white-space: normal;">
+              <a class="dropdown-header" style="font-size: x-large; color: grey;">Popular Topics</a>
+              <a class="dropdown-item" style="font-size: small;" href="#">Web Development</a>
+              <a class="dropdown-item" style="font-size: small;" href="#">Writing</a>
+              <a class="dropdown-item" style="font-size: small;" href="#">Video/Animation</a>
+              <a class="dropdown-item" style="font-size: small;" href="#">Audio</a>
+              <a class="dropdown-item" style="font-size: small;" href="#">Programming</a>
+          </li>
+          &nbsp;
+        </ul>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;"><i class="bi bi-box-arrow-in-right"></i>&nbsp; Login/Signup</a>    
+            </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <body>
+
+    <!-- 
+      JUMBOTORN FOR THE HOMEPAGE
+     -->
+    <div class="jumbotron" style="background-image: url(https://i.imgur.com/GbvmWQK.jpg); background-size: 100%; height: 100%; border-radius: 0px;  background-repeat: no-repeat; background-position-x: center;">
+      <h1 class="display-4" style="color:white; font-weight: bold; text-align: center; padding-top: 5%;">School on your Desktop</h1>
+      <h3 class="lead" style="color: white; text-align: center;">
+        Earn a Skill, not just a Certificate.
+      </h3>
+      <hr style="color: white; width: 50%; margin-left: 25%;"/>
+      <!-- THE SEARCH BAR INSIDE THE JUMBOTRON -->
+      <div class="container" style="text-align: center; padding-top: 2%;">
+        <div class="search-box">
+          <form action="" class="search-form" >
+            <input
+              type="text"
+              placeholder="You are one click away from your school"
+              id="search"
+              autocomplete="off"
+              size="100"
+              style="border-radius: 10px; height: 50px; border-style: hidden; text-indent: 20px;"
+            />
+            <button class = "btn btn-lg" type="submit" style="border-color: white;"><i class="fa fa-paper-plane" style="
+              color: white;
+              border-left: none;
+              cursor: pointer;"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- END OF JUMBOTRON -->
+
+    <!-- START OF HOW WE WORK COLUMNS AND ROWS -->
+    <div>
+      <div class="row">
+        <div class="container-fluid">
+          <div class="col-sm-12">
+            <h1 style="text-align: center;">How we work</h1>
+            <hr style="width: 50%; margin-left: 25%; margin-bottom: 25px;"/>
+            <div class="row">
+              <div class="col-md-4" style="text-align: center;">
+                <strong>Your Choice</strong><br><br>
+                <div>
+                  <img src="https://www.learninglight.com/wp-content/uploads/2016/08/elearning-content-development.jpg" width="275px" height="180px" alt="">
+                </div><br>
+                <div style="text-align: center;">
+                  Choose A Topic from our vast Library of Topics and then choose our top-rated Instructors.
+                </div>
+              </div>
+              <div class="col-md-4" style="text-align: center;">
+                <strong>Access from Anywhere</strong><br><br>
+                <div>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNekblbfFCXebfxXeF9Iw3Ci6Xuty4s__bfA&usqp=CAU" alt="">
+                </div><br>
+                <div style="text-align: center;">
+                  You can Access the Lectures by Instructors from anywhere and at anytime from your Smartphone, Tablets, Laptops, and Desktops.
+                </div>
+              </div>
+              <div class="col-md-4" style="text-align: center;">
+                <strong>Earn a Skill</strong><br><br>
+                <div>
+                  <img src="https://miro.medium.com/max/626/1*SygbfcrPbi6O467numqJpw.jpeg" width="275px" height="180px" alt="">
+                </div><br>
+                <div style="text-align: center;">
+                  At the end of every Course you will earn Skill that will help you land a Job.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END OF HOW WE WORK -->
+
+    <hr style="width: 50%; margin-left: 25%; margin-bottom: 50px; margin-top: 50px;"/>
+
+    <!-- CAROUSEL OF FEEDBACK -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="d-block w-100"
+            src="https://i.imgur.com/y1g3BPs.jpg"
+            alt="First slide"
+            style = "height: 300px; object-fit: cover"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="text-align:center; color: white">Albert, Algebra</h5>
+            <p style="text-align:center; color: white">"I was failing my math class and we tried this website as a last resort to help figure out questions. Later the next day I got an A on the test which raised my grade from a F to a B-. Praise this service"</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="https://i.imgur.com/1usoFzP.jpg"
+            alt="Second slide"
+            style ="height: 300px; object-fit: cover"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="text-align:center; color: white">Lily, Chemistry</h5>
+            <p style="text-align:center; color: white">"My tutoring session went very well. I was pleased with all of the tips and personalized information given to help my specific needs."</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="https://i.imgur.com/zGFZk3T.jpg"
+            alt="Third slide"
+            style ="height: 300px; object-fit: cover"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="text-align:center; color: white">Jolene, Physics</h5>
+            <p style="text-align:center; color: white">"This session helped me to become more comfortable with using equations and converting between units!"</p>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- END OF CAROUSEL -->
+  </body>
+
+  <footer class="bg-white">
+    <div class="container py-5">
+      <div class="row py-4">
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="" width="180" class="mb-3">
+          <p class="font-italic text-muted">Please feel free to follow us on social media to be updated on all the new developments</p>
+          <ul class="list-inline mt-4">
+            <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Students</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#" class="text-muted">Career Choices</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Code of Conduct</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Payment Methods</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Our Blog</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Conact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Tutors</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#" class="text-muted">Register</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Code of Conduct</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Training</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Why choose us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+          <p class="text-muted mb-4">Anything about us including investing, collaborating, advertising, developments will be on our newsletter. Be sure to sign up!</p>
+          <div class="p-1 rounded border">
+            <div class="input-group">
+              <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+              <div class="input-group-append">
+                <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyrights -->
+    <div class="bg-light py-4">
+      <div class="container text-center">
+        <p class="text-muted mb-0 py-2">© Illuminate Online</p>
+        <p class="text-muted">All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+</html>
